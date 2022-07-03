@@ -1,0 +1,69 @@
+/* laptop : 1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* lg :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-info ul li {
+        margin-right: 20px;
+    }
+    .main-menu ul li {
+        margin-left: 20px;
+    }
+    .back-text {
+        font-size: 250px;
+    }
+    .titel h2 {
+        font-size: 100px;
+    }
+    .titel h1 {
+        font-size: 40px;
+    }
+    .up-event-btn{
+        margin-top: 30px;
+    }
+    .single-fact h1 {
+        font-size: 55px;
+    }
+    .footer-widget.pl-30.mb-50 {
+        padding-left: 0;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .up-event-btn{
+        margin-top: 30px;
+    }
+    .footer-widget.pl-30.mb-50 {
+        padding-left: 0;
+    }
+    .header-info ul li.header-info-last{
+        display: none;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .up-event-btn{
+        margin-top: 30px;
+    }
+    .footer-widget.pl-30.mb-50 {
+        padding-left: 0;
+    }
+    
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+ 
+}
